@@ -29,7 +29,6 @@ public class HomeWork2 {
                     arr[i]=0;
                     break;
             }
-
         }
         System.out.println(Arrays.toString(arr) + "\n");
     }
