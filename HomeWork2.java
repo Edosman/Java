@@ -2,7 +2,7 @@
  * Java. Level 1. Lesson 2. Home work
  *
  * @author Andry Krasikov
- * @version Aug 11, 2018
+ * @version Aug 16, 2018
  */
 
 import java.util.Arrays;
@@ -21,11 +21,6 @@ public class HomeWork2 {
     public static void revers() {
         int[] arr = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
         for (int i = 0; i<arr.length; i++) {
-//            if(arr[i] == 1){
-//                arr[i]=0;
-//            } else {arr[i]=1;}
-            // System.out.println ( "arr[" + i + "] = " + arr [ i ]);
-
             switch (arr[i]){
                 case 0:
                     arr[i]=1;
