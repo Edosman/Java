@@ -13,12 +13,12 @@ public class HomeWork3_1 {
         riddle();
     }
 
-    public static void riddle (){
+    public static void riddle () {
         Random rand = new Random();
         Scanner scanner = new Scanner(System.in);
         int digit = rand.nextInt(10);
         System.out.println("Попытайтесь угадать целое число в пределах от 0 до 9 за 3 попытки.");
-        if (scanner.hasNextInt()){
+        if (scanner.hasNextInt()) {
             for (int i = 0; i < 3; i++) {
                 int answer = scanner.nextInt();
                 if (answer >= 0 && answer < 10) {
@@ -42,7 +42,7 @@ public class HomeWork3_1 {
         }
     }
 
-    public static void replay (){
+    public static void replay () {
         System.out.println("Попытки закончились. Повторить игру ещё раз? 1-да, 0-нет.");
         Scanner scanner = new Scanner(System.in);
         if (scanner.hasNextInt()) {
