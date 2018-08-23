@@ -2,7 +2,7 @@
  * Java. Level 1. Lesson 3. Home work
  *
  * @author Andry Krasikov
- * @version Aug 22, 2018
+ * @version Aug 24, 2018
  */
 
 import java.util.Random;
