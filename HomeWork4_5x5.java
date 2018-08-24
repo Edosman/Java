@@ -93,28 +93,28 @@ class HomeWork4_5x5 {
                    if (x == WIN_SIZE) return true;
                 }
                 else {
-                    x=0;
+                    x = 0;
                 }
                 if (map[j][i] == dot)
                     y++;
                 if (y == WIN_SIZE) return true;
-                else{
-                    y=0;
+                else {
+                    y = 0;
                 }
                 if (i<SIZE-1 && j<SIZE-1) {
                     if (map[i][j] == dot && map[i + 1][j + 1] == dot)
                         z++;
                     if (z == WIN_SIZE) return true;
-                    else{
-                        z=0;
+                    else {
+                        z = 0;
                     }
                 }
                 if (j>1 && i<SIZE-1) {
                     if (map[i][j] == dot && map[i + 1][j - 1] == dot)
                         w++;
                     if (w == WIN_SIZE) return true;
-                    else{
-                        w=0;
+                    else {
+                        w = 0;
                     }
                 }
             }
