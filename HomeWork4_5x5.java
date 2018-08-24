@@ -8,7 +8,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-class HomeWork3_2 {
+class HomeWork4_5x5 {
 
     final int SIZE = 5;
     final int WIN_SIZE = 4;
@@ -20,10 +20,10 @@ class HomeWork3_2 {
     Random rand = new Random();
 
     public static void main(String[] args) {
-        new HomeWork3_2();
+        new HomeWork4_5x5();
     }
 
-    HomeWork3_2() {
+    HomeWork4_5x5() {
         initMap();
         while (true) {
             humanTurn();
