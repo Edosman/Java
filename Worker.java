@@ -32,7 +32,14 @@ class Worker {
 	
 	void setSalary(int salary) {
 		if (salary != this.salary)
+		 salary = this.salary;
 		this.salary = salary;
+	}
+	
+	void setFio(String fio) {
+		if (fio != this.fio)
+		 fio = this.fio;
+		this.fio = fio;
 	}
 
     public static void main(String[] args) {
@@ -42,7 +49,6 @@ class Worker {
         worker[2] = new Worker("Nikolaev Nikolay Nikolaevich", "engineer", "nikolaev@email.ru", "123-11-02", 210000, 41);
         worker[3] = new Worker("Semenov Semen Semenovich", "developer", "semenov@email.ru", "123-11-03", 200000, 27);
         worker[4] = new Worker("Andreeva Irina Andreevna", "secretary", "andreeva@email.ru", "123-11-04", 100000, 27);
-
         filter(worker);
     }
 
